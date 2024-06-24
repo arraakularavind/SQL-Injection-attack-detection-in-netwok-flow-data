@@ -9,7 +9,8 @@ Data Collection:
    * Containing source and destination IP's,packet and byte counts, timestamp and so on.
 
 Methology:
-   (i) Feature Cleaning
+   (i) Feature Cleaning:
+   
      * First, the IP addresses were converted into numeric value, and 
      * dataset are checked for empty columns/rows to avoid error in generation of models.Rows with NA and infinity values are replaced with global constants/removed.
      * Dimensionality Reduction: purpose to reduce the complexity of model which increase by exponential times.
@@ -19,8 +20,9 @@ Methology:
      * Finally, the 'nexthop' feature was excluded from the dataset due to its negative impact on the detection of malicious traffic in wide area networks.
    
    (ii) Data Normalization:
-         * Ensuring all features contribute equally to the model performance by scaling them to standard range.\
+         * Ensuring all features contribute equally to the model performance by scaling them to standard range.
          * Method: Applied Min-Max,Robust Scaling Normalization
+         
    (iii) Algorithms Implementation:
            * Algorithm: KNN, logistic Regression(LR),linear SVC, Perceptron with SGD and Random Forest(RF), Ensembled Technique(Voting Classifier)
            * Model Training: Partitioned Dataset into 80% for training and 20% for testing, Evaluated based on Accuracy of the model as well as with Minimal Execution time.
