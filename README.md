@@ -20,10 +20,12 @@ Methology:
      * Finally, the 'nexthop' feature was excluded from the dataset due to its negative impact on the detection of malicious traffic in wide area networks.
    
    (ii) Data Normalization:
+   
          * Ensuring all features contribute equally to the model performance by scaling them to standard range.
          * Method: Applied Min-Max,Robust Scaling Normalization
          
    (iii) Algorithms Implementation:
+   
            * Algorithm: KNN, logistic Regression(LR),linear SVC, Perceptron with SGD and Random Forest(RF), Ensembled Technique(Voting Classifier)
            * Model Training: Partitioned Dataset into 80% for training and 20% for testing, Evaluated based on Accuracy of the model as well as with Minimal Execution time.
    
