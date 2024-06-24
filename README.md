@@ -9,6 +9,7 @@ Data Collection:
    * Containing source and destination IP's,packet and byte counts, timestamp and so on.
 
 Methology:
+
    (i) Feature Cleaning:
    
      * First, the IP addresses were converted into numeric value, and 
